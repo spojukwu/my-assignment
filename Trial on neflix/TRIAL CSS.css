@@ -1,0 +1,81 @@
+header{
+    border: 2px solid green;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 10px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    width: 650px;
+    list-style-type: none;
+    margin-left: 30%;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+  }
+
+.logo{
+    height: 40px;
+}
+.login-signup a{
+    text-decoration: none;
+}
+section{
+    display: flex;
+    border: 2px solid red;
+    margin-top: 40px;
+    padding: 5px;
+    gap: 10px;
+}
+.left-side{
+    padding: 5px;
+    border: 2px solid green;
+    width: 60%;
+}
+.right-side{
+    border: 2px solid orange;
+    padding: 10px;
+    position: relative ;
+    width: 40%;
+    background-image: url(./images/netflix-logo-png.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.title1{
+    display: flex;
+    border: 2px solid green;
+    padding: 10px;
+}
+.title2{
+    display: flex;
+    border: 2px solid red;
+    margin-top: 5px;
+    padding: 10px;
+}
+.title-logo{
+    width: 20%;
+}
+.right-side-logo{
+    width: 70%;
+}
+.right-side-text {
+    position:fixed;
+    top: 0;
+    padding: 10px;
+  }
+  .submit {
+    width: 100%;
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 5px;
+  }
+  .title-logo2{
+    width: 21%;
+}
